@@ -1,24 +1,43 @@
 {
-  "name": "tweeet",
-  "version": "1.0.0",
-  "description": "Send out tweets from the comfort of your terminal",
-  "main": "index.js",
-  "scripts": {
+	"name": "tweeet",
+	"version": "1.0.0",
+	"description": "Send out tweets from the comfort of your terminal",
+	"main": "build/index.js",
+	"scripts": {
 		"lint": "eslint .",
-		"lint:fix": "eslint --fix --ext .js,.ts ."
+		"lint:fix": "eslint --fix --ext .js,.ts .",
+		"build": "tsc"
 	},
-  "bin": {
-		"tweeet": "./index.js"
+	"bin": {
+		"tweeet": "build/index.js"
 	},
-  "repository": {
+	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/tickhq/tweeet"
+		"url": "git+https://github.com/Eronmmer/tweeet"
 	},
-  "author": "Tick",
+	"author": "Erons",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://https://github.com/tickhq/tweeet/issues"
+		"url": "https://github.com/Eronmmer/tweeet/issues"
 	},
-	"homepage": "https://https://github.com/tickhq/tweeet#readme",
-  "keywords": []
+	"homepage": "https://github.com/Eronmmer/tweeet#readme",
+	"keywords": [],
+	"dependencies": {
+		"axios": "^1.7.7",
+		"colorette": "^2.0.20",
+		"crypto-js": "^4.2.0",
+		"dotenv": "^16.4.5",
+		"oauth-1.0a": "^2.2.6",
+		"yargs": "^17.7.2"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.10.0",
+		"@types/crypto-js": "^4.2.2",
+		"@types/node": "^22.5.4",
+		"@types/yargs": "^17.0.33",
+		"eslint": "^9.10.0",
+		"globals": "^15.9.0",
+		"typescript": "^5.6.2",
+		"typescript-eslint": "^8.5.0"
+	}
 }
