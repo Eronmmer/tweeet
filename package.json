@@ -1,0 +1,24 @@
+{
+  "name": "tweeet",
+  "version": "1.0.0",
+  "description": "Send out tweets from the comfort of your terminal",
+  "main": "index.js",
+  "scripts": {
+		"lint": "eslint .",
+		"lint:fix": "eslint --fix --ext .js,.ts ."
+	},
+  "bin": {
+		"tweeet": "./index.js"
+	},
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/tickhq/tweeet"
+	},
+  "author": "Tick",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://https://github.com/tickhq/tweeet/issues"
+	},
+	"homepage": "https://https://github.com/tickhq/tweeet#readme",
+  "keywords": []
+}
