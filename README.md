@@ -12,7 +12,7 @@ I got tired of always opening twitter on my browser or iPhone to tweet.
 
 - [x] Rewrite with TypeScript
 - [ ] Make it a customizable app so users can sign in & use
-- [ ] Bundle as an installable CLI tool & publish to npm & homebrew
+- [ ] Bundle as an installable CLI tool & publish to npm & homebrew so users can run commands like: `tweeet post -t "Hello, World"`
 
 ## How to use
 
